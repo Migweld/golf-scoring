@@ -1,0 +1,27 @@
+{
+  "name": "migweld/golfscoring",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Craig Thompson",
+      "email": "craig@flodesign.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Migweld\\GolfScoring\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
